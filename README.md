@@ -49,7 +49,7 @@ city: The name of the city for which the weather data is provided.</br>
 
 country: The name of the country where the city is located.</br>
 
-date: The date for which the weather forecast is provided.</br>
+date: The date for the hour in past the weather forecast is provided.</br>
 
 localtime: The local time at the location of the city.</br>
 
