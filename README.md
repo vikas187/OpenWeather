@@ -41,3 +41,18 @@ If you don't want to install docker, you can run the application using node.js. 
 **Access the API**</br>
 Open your web browser and navigate to:
 http://localhost:3000/weather?city=london
+
+**Extracted Weather Data Explanation**</br>
+The returned response from API is constructed by extracting specific pieces of information from the API response. Here is a breakdown of each field in the object:</br>
+
+city: The name of the city for which the weather data is provided.</br>
+
+country: The name of the country where the city is located.</br>
+
+date: The date for which the weather forecast is provided.</br>
+
+localtime: The local time at the location of the city.</br>
+
+temperature: The temperature in degrees Celsius at a specific hour of the forecasted day.</br>
+
+condition: The weather condition description at a specific hour of the forecasted day.</br>
